@@ -1,6 +1,6 @@
-// NAME: No Controls
-// AUTHORS: OhItsTom
-// DESCRIPTION: Remove the minimum, maximum, and close buttons from the titlebar.
+// NAME:friendACBottom
+// AUTHORS: Y0nxy
+// DESCRIPTION: Moves Friend Activity Button Down.
 
 (async function friendACBottom() {
 	if (!Spicetify.CosmosAsync) {
