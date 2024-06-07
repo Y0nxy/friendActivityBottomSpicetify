@@ -1,6 +1,6 @@
 # friendActivityBottomSpicetify
 felt like it needed to be more accessible, i mean all the buttons are there
-
+!preview[preview.png]
 Installation
 Install Spicetify and set it up according to the instructions.
 Navigate to your Spicetify config directory via the command spicetify config-dir.
