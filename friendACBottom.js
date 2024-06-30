@@ -20,7 +20,7 @@
 		button.style.background = 'transparent';
 		// Append the button to the target container
 		if (targetContainer) {
-			targetContainer.insertBefore(button, targetContainer.firstChild);
+			targetContainer.insertBefore(button.parentElement, targetContainer.firstChild);
 		}
 	}
 })();
