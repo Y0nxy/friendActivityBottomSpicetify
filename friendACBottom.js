@@ -8,19 +8,22 @@
 		return;
 	}
 	
-	
-	// Select the button using its aria-label attribute
-	var button = document.querySelector('.encore-over-media-set.main-topBar-buddyFeed[aria-label="Friend Activity"]');
 
+	// Select the button using its aria-label attribute
+	//var button = document.querySelector('.encore-text-body-small-bold main-topBar-buddyFeed[aria-label="Friend Activity"]');
+	var button = document.querySelector('button[aria-label="Friend Activity"]');
+	//console.log("TEXT");
 	// Check if the button is found
 	if (button) {
-		// Select the target container using its class
-		var targetContainer = document.querySelector('.main-nowPlayingBar-extraControls');
 
+		// Select the target container using its class
+		//console.log("found button");
+		var targetContainer = document.querySelector('.main-nowPlayingBar-extraControls');
 		button.style.background = 'transparent';
 		// Append the button to the target container
 		if (targetContainer) {
-			targetContainer.insertBefore(button.parentElement, targetContainer.firstChild);
+			//targetContainer.insertBefore(button.parentElement, targetContainer.firstChild);
+			targetContainer.insertBefore(button, targetContainer.firstChild);
 		}
 	}
 })();
